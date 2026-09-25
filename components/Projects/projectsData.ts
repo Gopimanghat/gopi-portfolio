@@ -19,6 +19,27 @@ export const projects = [
     github: "",
     featured: true,
   },
+    {
+    title: "AI Chatbot",
+    description:
+      "An AI-powered chatbot that answers visitor questions on my behalf — instant replies for common questions, LLM fallback for anything else, and email alerts so I never miss a lead.",
+    technologies: [
+      "Next.js",
+      "Express",
+      "PostgreSQL",
+      "pgvector",
+      "Vector Embeddings",
+    ],
+    features: [
+      "Semantic Q&A Matching",
+      "LLM Fallback + Email Alerts",
+      "Live Admin Reply Panel",
+    ],
+    image: "/projects/chatbot.png",
+    live: "https://portfolio-chatbot-pink.vercel.app/",
+    github:"",
+    featured: true,
+  },
 
   {
     title: "RailwayReady",

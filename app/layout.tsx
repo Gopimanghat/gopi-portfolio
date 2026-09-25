@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ChatWidget from "../components/Chatbot/Chatwidget";
+import BeeAssistant from "../components/BeeAssistant/BeeAssistant";
+
+
 
 export const metadata: Metadata = {
   title: "Gopikrishnan M | Portfolio",
@@ -35,7 +39,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>{children}
+        <ChatWidget />
+        <BeeAssistant />
+      </body>
+      
     </html>
   );
 }
